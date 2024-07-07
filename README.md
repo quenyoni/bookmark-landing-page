@@ -42,5 +42,5 @@ This is a solution to the [Bookmark landing page challenge on Frontend Mentor](h
 ## Author
 
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- X - [@yourusername](https://www.twitter.com/yourusername)
+
+- X - [@quenyoni](https://www.twitter.com/quenyoni)
