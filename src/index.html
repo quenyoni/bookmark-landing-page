@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script defer src="./script.js"></script>
     <title>Bookmark</title>
 </head>
@@ -40,7 +42,7 @@
     </header>
     <main id="main">
         <section id="hero" class="section section__hero">
-            <div class="hero__text">
+            <div data-aos="fade-up" class="hero__text">
                 <h1 class="heading">
                     
                     A Simple Bookmark <br>Manager
@@ -55,12 +57,12 @@
                     <a class="btn btn--tertiary">Get it on Firefox</a>
                 </div>
             </div>
-            <img class="hero__img" src="./assets/images/illustration-hero.svg" alt="illustration-hero">
+            <img data-aos="fade-up" class="hero__img" src="./assets/images/illustration-hero.svg" alt="illustration-hero">
             
             
         </section>
         <section id="features" class="section section__features">
-            <div class="section__header">
+            <div data-aos="fade-up" class="section__header">
                 
          
                 <h2>Features</h2>
@@ -78,7 +80,7 @@
                     <li data-feature-link="3" class="tab__link"><a href="">Easy Sharing</a></li>
                 </div>
             </div>
-            <div class="feature__wrapper">
+            <div data-aos="fade-up" class="feature__wrapper">
                 <div data-feature="1" class="feature active">
                     <div class="img__wrapper">
                         <img src="./assets/images/illustration-features-tab-1.svg" alt="">
@@ -148,7 +150,7 @@
             
         </section>
         <section class="section section__download">
-            <div class="section__header">
+            <div data-aos="fade-up" class="section__header">
                 
          
             <h2>Download the extension</h2>
@@ -157,8 +159,9 @@
             </p>
         </div>
         
-        <div class="download__link-cards">
-            <div class="link__card">
+        <div data-aos="fade-up" class="download__link-cards">
+            <div data-aos="fade-up"
+            data-aos-duration="2000"  class="link__card">
                 <div class="top">
                     
                
@@ -170,7 +173,8 @@
                 
                 
             </div>
-            <div class="link__card">
+            <div data-aos="fade-up"
+            data-aos-duration="3000"  class="link__card">
                 <div class="top">
                 <img src="./assets/images/logo-firefox.svg" alt="icon-chrome">
                 <h3>Add to Firefox </h3>
@@ -180,7 +184,8 @@
                 
                 
             </div>
-            <div class="link__card">
+            <div data-aos="fade-up"
+            data-aos-duration="4000" class="link__card">
                 <div class="top">
                     
               
@@ -195,7 +200,7 @@
         </div>
         </section>
         <section class="section section__faq">
-            <div class="section__header">
+            <div data-aos="fade-up" class="section__header">
                 <h2>Frequently Asked Questions</h2>
                 <p>Here are some of our FAQs. If you have any other questions <br> you’d like answered please feel free to email us.</p>
                 
@@ -208,7 +213,7 @@
                
             </div>
             
-            <div class="accordion">
+            <div data-aos="fade-up" class="accordion">
                 <div class="accordion__item">
                     <button class="accordion__header">
                         <span>What is Bookmark?

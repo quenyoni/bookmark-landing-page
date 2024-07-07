@@ -1,14 +1,5 @@
-// document
-// 	.querySelector("body")
-// 	.addEventListener("scroll", function (e) {
-// 		console.log("scrolled");
-// 	});
+AOS.init();
 
-// const body = document.querySelector("body");
-
-// body.addEventListener("scroll", function (e) {
-// 	console.log("sc", e);
-// });
 const hamburger =
 	document.querySelectorAll(".hamburger");
 const form = document.querySelector("form");
